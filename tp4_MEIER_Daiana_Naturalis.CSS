@@ -29,6 +29,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
+    line-height: 30px;
 }
 .texto3_columnas{
     column-count: 2; /* número de columnas */
@@ -38,6 +39,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
+    line-height: 30px;
 
 }
 .items{
@@ -168,11 +170,41 @@ body{
     margin-top: -26em;
 }
 /*____carrusel_CSS____*/
-
+.texto4{
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+}
 
 
 
 /*---------------------------footer-----*/
 footer{
-    background-color: aquamarine;
+    background-color: #1F6B0C;
 }
+.columnaa{
+    float:left;
+    width: 31.92%;
+    padding-right: 19px;
+    text-align: center;
+}
+.filaa::after{
+    content:" ";
+    clear: both;
+    display: table;
+    margin-top: -26em;
+}
+.mapa{
+    text-align: center;
+}
+.contactos{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
